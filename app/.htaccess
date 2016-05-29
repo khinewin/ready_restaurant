@@ -1,0 +1,64 @@
+RewriteEngine on
+
+Options -Indexes
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^home                   admins/home.php [NC,L]
+
+RewriteRule ^admin/(.*)$            admins/user.php?id=$1 [NC,L]
+
+RewriteRule ^del_user/(.*)$         admins/del_user.php?id=$1 [NC,L]
+
+RewriteRule ^upload_admin_photo     admins/upload_admin_photo.php [NC,L]
+
+RewriteRule ^user_home              users/home.php [NC,L]
+
+RewriteRule ^user/(.*)$             users/user.php?id=$1 [NC,L]
+
+RewriteRule ^upload_user_photo      users/upload_user_photo.php [NC,L]
+
+RewriteRule ^orderes_in_cart         users/ordered_cart.php [NC,L]
+
+RewriteRule ^orders                 admins/orders.php [NC,L]
+
+RewriteRule ^order_history/page([0-9a-zA-Z-]+)$                 admins/order_history.php?page=$1 [NC,L]
+
+RewriteRule ^order_history         admins/order_history.php [NC,L]
+
+RewriteRule ^print/(.*)$             admins/print.php?id=$1 [NC,L]
+
+RewriteRule ^print_for_chef/(.*)$    admins/print_for_chef.php?id=$1 [NC,L]
+
+RewriteRule ^p_f_c/([0-9a-zA-Z-]+)$  admins/p_f_c.php?id=$1 [NC,L]
+
+RewriteRule ^p/([0-9a-zA-Z-]+)$      admins/p.php?id=$1 [NC,L]
+
+
+
+
+
+
+
+RewriteRule ^join join.php [NC,L]
+
+RewriteRule ^signin signin.php [NC,L]
+
+RewriteRule ^logout logout.php [NC,L]
+
+
+
+RewriteRule ^food_menu              food/food_menu.php [NC,L]
+
+RewriteRule ^foods                  food/foods.php [NC,L]
+
+RewriteRule ^add_food               food/add_food.php [NC,L]
+
+RewriteRule ^category([0-9a-zA-Z-]+)$        /?category=$1 [NC,L]
+
+RewriteRule ^page([0-9a-zA-Z-]+)$             /?page=$1 [NC,L]
+
+
+
+

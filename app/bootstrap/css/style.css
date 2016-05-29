@@ -1,0 +1,196 @@
+.panel.panel-footer
+{
+    text-align: center;
+    font-size: 10px;
+    background: #000;
+    color: #fff;
+}
+
+.navbar-inverse
+{
+    background: #000;
+
+}
+.panel.panel-heading
+{
+text-align: center;
+    color: #CC3333;
+    font-size: 20px;
+
+}
+.alert-danger ,.alert-success,.alert-warning
+{
+
+
+
+    border-radius: 5px;
+    font-size: 11px;
+
+}
+.form-group input[type=file], select
+{
+
+    margin-bottom:10px;
+}
+
+.form-group input[type=text],input[type=password]
+{
+    margin-bottom: 10px;
+}
+textarea {
+    margin-bottom: 10px;
+}
+.btn.btn-primary
+{
+
+    margin-bottom: 10px;
+
+}
+
+
+.main_show
+{
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main_show li
+{
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    background: #00a0d2;
+    float:left;
+    margin-left: 18px;
+    margin-bottom: 18px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #2b2b2b;
+
+}
+
+.main_show li img
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+.add_to_cart
+{
+    margin-top:10px;
+    font-size: 12px;
+
+  }
+
+
+ul.orders {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+ul.orders li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+ul.orders .order {
+    float: left;
+    width: 350px;
+    border-right: 1px dotted #ddd;
+    margin-right: 20px;
+}
+
+ul.orders .items {
+    float: left;
+    width: 590px;
+}
+i
+{
+
+    font-size:12px;
+}
+
+b
+{
+    font-size: 13px;
+
+}
+ul.orders b,
+ul.orders i,
+ul.orders span {
+    display: block;
+
+}
+
+ul.orders .items a {
+    font-weight: normal;
+    margin-right: 6px;
+}
+
+ul.orders .items b {
+    border-bottom: 1px dotted #ddd;
+    line-height: 1.8em;
+}
+ul.print-order
+{
+    list-style: none;
+}
+
+
+.paginate {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+}
+
+.paginate a {
+    padding:2px 5px 2px 5px;
+    margin:2px;
+    border:1px solid #999;
+    text-decoration:none;
+    color: #666;
+
+}
+.paginate a:hover, .paginate a:active {
+    border: 1px solid #999;
+    color: #000;
+}
+.paginate span.current {
+    margin: 2px;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid #999;
+
+    font-weight: bold;
+    background-color: #999;
+    color: #FFF;
+}
+.paginate span.disabled {
+    padding:2px 5px 2px 5px;
+    margin:2px;
+    border:1px solid #eee;
+    color:#DDD;
+}
+.search
+{
+    padding: 15px;
+}
+.search_history
+{
+    float:right;
+
+}
+.s
+{
+    height:31px;
+    margin-right: 20px;
+
+}
